@@ -3,6 +3,7 @@ stages:
   - stage:
       - manual-review:
           alias: manual-review
+          description: 在流水线过程中添加人工确认步骤
           version: "1.0"
           params:
             processor:
